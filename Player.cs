@@ -5,7 +5,7 @@ public partial class Player : Node
 {
 
 	//Definir a velocidade do personagem;
-	private Vector2 _speed = new Vector2(400,0);
+	private Vector2 _speed = new Vector2(200,0);
 
 	//Criar força de salto
 	private float _jumpvelocity = -600.0f;
@@ -62,7 +62,7 @@ public partial class Player : Node
 		if (_sprite.Position.Y > 350)
 		{
 			//o sprite fica com a velocidade nula e com a posição de 350 no eixo y
-			_sprite.Position = new Vector2(_sprite.Position.Y, 350);
+			_sprite.Position = new Vector2(_sprite.Position.X, 350);
 			_velocity.Y = 0;
 		}
 		
