@@ -13,6 +13,8 @@ position = Vector2(34, 339)
 script = ExtResource("1_g43gw")
 
 [node name="PlayerSprite" type="Sprite2D" parent="Mundo"]
+position = Vector2(-0.5, 0)
+scale = Vector2(0.98, 1)
 texture = ExtResource("2_iwkg5")
 hframes = 4
 
